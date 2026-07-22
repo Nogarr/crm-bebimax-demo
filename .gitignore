@@ -2,6 +2,8 @@
 /.next
 /out
 /build
+/.atl
+/.claude
 *.tsbuildinfo
 next-env.d.ts
 .DS_Store
