@@ -1,0 +1,324 @@
+[
+  {
+    "id": "o-001",
+    "clienteId": "c-001",
+    "clienteNombre": "Kiosco La Esquina",
+    "zona": "Centro",
+    "fecha": "2026-07-22T08:10:00",
+    "fechaEntrega": "2026-07-22",
+    "items": [
+      { "productoId": "p-001", "nombre": "Cerveza Rubia Lager 473ml", "emoji": "🍺", "cantidadCajas": 5, "precioCaja": 18600 },
+      { "productoId": "p-004", "nombre": "Gaseosa Cola 2.25L", "emoji": "🥤", "cantidadCajas": 3, "precioCaja": 16800 },
+      { "productoId": "p-007", "nombre": "Agua Mineral sin gas 2L", "emoji": "💧", "cantidadCajas": 2, "precioCaja": 8400 }
+    ],
+    "total": 160200,
+    "estado": "entregado",
+    "metodoPago": "cuenta_corriente",
+    "origen": "whatsapp",
+    "repartidorId": "u-rep-1"
+  },
+  {
+    "id": "o-002",
+    "clienteId": "c-003",
+    "clienteNombre": "Bar El Tercer Tiempo",
+    "zona": "Centro",
+    "fecha": "2026-07-22T08:25:00",
+    "fechaEntrega": "2026-07-22",
+    "items": [
+      { "productoId": "p-001", "nombre": "Cerveza Rubia Lager 473ml", "emoji": "🍺", "cantidadCajas": 10, "precioCaja": 18600 },
+      { "productoId": "p-002", "nombre": "Cerveza Rubia 1L retornable", "emoji": "🍺", "cantidadCajas": 6, "precioCaja": 14200 },
+      { "productoId": "p-015", "nombre": "Fernet 750ml", "emoji": "🥃", "cantidadCajas": 2, "precioCaja": 68400 }
+    ],
+    "total": 408000,
+    "estado": "en_camino",
+    "metodoPago": "efectivo",
+    "origen": "telefono",
+    "repartidorId": "u-rep-1"
+  },
+  {
+    "id": "o-003",
+    "clienteId": "c-002",
+    "clienteNombre": "Almacén Doña Rosa",
+    "zona": "Sur",
+    "fecha": "2026-07-22T07:50:00",
+    "fechaEntrega": "2026-07-22",
+    "items": [
+      { "productoId": "p-004", "nombre": "Gaseosa Cola 2.25L", "emoji": "🥤", "cantidadCajas": 4, "precioCaja": 16800 },
+      { "productoId": "p-006", "nombre": "Gaseosa Naranja 2L", "emoji": "🥤", "cantidadCajas": 3, "precioCaja": 14900 },
+      { "productoId": "p-013", "nombre": "Jugo Naranja 1L", "emoji": "🧃", "cantidadCajas": 2, "precioCaja": 11600 }
+    ],
+    "total": 135100,
+    "estado": "en_camino",
+    "metodoPago": "efectivo",
+    "origen": "vendedor",
+    "repartidorId": "u-rep-3"
+  },
+  {
+    "id": "o-004",
+    "clienteId": "c-004",
+    "clienteNombre": "Restaurante La Parrilla",
+    "zona": "Norte",
+    "fecha": "2026-07-22T09:05:00",
+    "fechaEntrega": "2026-07-22",
+    "items": [
+      { "productoId": "p-009", "nombre": "Vino Malbec 750ml", "emoji": "🍷", "cantidadCajas": 3, "precioCaja": 42600 },
+      { "productoId": "p-010", "nombre": "Vino Blanco Chardonnay 750ml", "emoji": "🍷", "cantidadCajas": 2, "precioCaja": 33800 },
+      { "productoId": "p-007", "nombre": "Agua Mineral sin gas 2L", "emoji": "💧", "cantidadCajas": 4, "precioCaja": 8400 }
+    ],
+    "total": 229000,
+    "estado": "confirmado",
+    "metodoPago": "transferencia",
+    "origen": "whatsapp",
+    "repartidorId": "u-rep-2"
+  },
+  {
+    "id": "o-005",
+    "clienteId": "c-005",
+    "clienteNombre": "Supermercado El Ahorro",
+    "zona": "Oeste",
+    "fecha": "2026-07-22T10:30:00",
+    "fechaEntrega": "2026-07-23",
+    "items": [
+      { "productoId": "p-001", "nombre": "Cerveza Rubia Lager 473ml", "emoji": "🍺", "cantidadCajas": 20, "precioCaja": 18600 },
+      { "productoId": "p-004", "nombre": "Gaseosa Cola 2.25L", "emoji": "🥤", "cantidadCajas": 15, "precioCaja": 16800 },
+      { "productoId": "p-007", "nombre": "Agua Mineral sin gas 2L", "emoji": "💧", "cantidadCajas": 10, "precioCaja": 8400 },
+      { "productoId": "p-011", "nombre": "Energizante lata 250ml", "emoji": "⚡", "cantidadCajas": 5, "precioCaja": 24800 }
+    ],
+    "total": 832000,
+    "estado": "pendiente",
+    "metodoPago": "cuenta_corriente",
+    "origen": "web",
+    "repartidorId": null
+  },
+  {
+    "id": "o-006",
+    "clienteId": "c-006",
+    "clienteNombre": "Kiosco 24hs Nonino",
+    "zona": "Norte",
+    "fecha": "2026-07-22T07:40:00",
+    "fechaEntrega": "2026-07-22",
+    "items": [
+      { "productoId": "p-011", "nombre": "Energizante lata 250ml", "emoji": "⚡", "cantidadCajas": 3, "precioCaja": 24800 },
+      { "productoId": "p-012", "nombre": "Energizante lata 473ml", "emoji": "⚡", "cantidadCajas": 2, "precioCaja": 38200 },
+      { "productoId": "p-014", "nombre": "Jugo Multifruta 200ml", "emoji": "🧃", "cantidadCajas": 4, "precioCaja": 7800 }
+    ],
+    "total": 182000,
+    "estado": "entregado",
+    "metodoPago": "efectivo",
+    "origen": "telefono",
+    "repartidorId": "u-rep-2"
+  },
+  {
+    "id": "o-007",
+    "clienteId": "c-007",
+    "clienteNombre": "Bar Malvina",
+    "zona": "Centro",
+    "fecha": "2026-07-22T11:15:00",
+    "fechaEntrega": "2026-07-23",
+    "items": [
+      { "productoId": "p-002", "nombre": "Cerveza Rubia 1L retornable", "emoji": "🍺", "cantidadCajas": 8, "precioCaja": 14200 },
+      { "productoId": "p-016", "nombre": "Aperitivo 1L", "emoji": "🥃", "cantidadCajas": 3, "precioCaja": 39600 }
+    ],
+    "total": 232400,
+    "estado": "pendiente",
+    "metodoPago": "efectivo",
+    "origen": "whatsapp",
+    "repartidorId": null
+  },
+  {
+    "id": "o-008",
+    "clienteId": "c-009",
+    "clienteNombre": "Restaurante Puerto Sur",
+    "zona": "Costanera",
+    "fecha": "2026-07-22T09:35:00",
+    "fechaEntrega": "2026-07-22",
+    "items": [
+      { "productoId": "p-009", "nombre": "Vino Malbec 750ml", "emoji": "🍷", "cantidadCajas": 4, "precioCaja": 42600 },
+      { "productoId": "p-003", "nombre": "Cerveza IPA Artesanal 500ml", "emoji": "🍺", "cantidadCajas": 3, "precioCaja": 22400 },
+      { "productoId": "p-008", "nombre": "Agua con gas 1.5L", "emoji": "💧", "cantidadCajas": 3, "precioCaja": 9200 }
+    ],
+    "total": 265200,
+    "estado": "confirmado",
+    "metodoPago": "transferencia",
+    "origen": "vendedor",
+    "repartidorId": "u-rep-3"
+  },
+  {
+    "id": "o-009",
+    "clienteId": "c-010",
+    "clienteNombre": "Kiosco Estación",
+    "zona": "Centro",
+    "fecha": "2026-07-22T08:55:00",
+    "fechaEntrega": "2026-07-22",
+    "items": [
+      { "productoId": "p-005", "nombre": "Gaseosa Lima Limón 2.25L", "emoji": "🥤", "cantidadCajas": 4, "precioCaja": 15600 },
+      { "productoId": "p-007", "nombre": "Agua Mineral sin gas 2L", "emoji": "💧", "cantidadCajas": 3, "precioCaja": 8400 },
+      { "productoId": "p-014", "nombre": "Jugo Multifruta 200ml", "emoji": "🧃", "cantidadCajas": 2, "precioCaja": 7800 }
+    ],
+    "total": 103200,
+    "estado": "en_camino",
+    "metodoPago": "efectivo",
+    "origen": "telefono",
+    "repartidorId": "u-rep-1"
+  },
+  {
+    "id": "o-010",
+    "clienteId": "c-011",
+    "clienteNombre": "Distribuidora El Litoral",
+    "zona": "Norte",
+    "fecha": "2026-07-22T10:00:00",
+    "fechaEntrega": "2026-07-23",
+    "items": [
+      { "productoId": "p-001", "nombre": "Cerveza Rubia Lager 473ml", "emoji": "🍺", "cantidadCajas": 30, "precioCaja": 18600 },
+      { "productoId": "p-002", "nombre": "Cerveza Rubia 1L retornable", "emoji": "🍺", "cantidadCajas": 20, "precioCaja": 14200 },
+      { "productoId": "p-004", "nombre": "Gaseosa Cola 2.25L", "emoji": "🥤", "cantidadCajas": 20, "precioCaja": 16800 },
+      { "productoId": "p-015", "nombre": "Fernet 750ml", "emoji": "🥃", "cantidadCajas": 5, "precioCaja": 68400 }
+    ],
+    "total": 1520000,
+    "estado": "preparacion",
+    "metodoPago": "cuenta_corriente",
+    "origen": "vendedor",
+    "repartidorId": "u-rep-2"
+  },
+  {
+    "id": "o-011",
+    "clienteId": "c-012",
+    "clienteNombre": "Bar La Redonda",
+    "zona": "Sur",
+    "fecha": "2026-07-21T09:20:00",
+    "fechaEntrega": "2026-07-21",
+    "items": [
+      { "productoId": "p-001", "nombre": "Cerveza Rubia Lager 473ml", "emoji": "🍺", "cantidadCajas": 8, "precioCaja": 18600 },
+      { "productoId": "p-011", "nombre": "Energizante lata 250ml", "emoji": "⚡", "cantidadCajas": 3, "precioCaja": 24800 }
+    ],
+    "total": 223200,
+    "estado": "entregado",
+    "metodoPago": "efectivo",
+    "origen": "whatsapp",
+    "repartidorId": "u-rep-3"
+  },
+  {
+    "id": "o-012",
+    "clienteId": "c-013",
+    "clienteNombre": "Almacén La Económica",
+    "zona": "Sur",
+    "fecha": "2026-07-22T11:40:00",
+    "fechaEntrega": "2026-07-23",
+    "items": [
+      { "productoId": "p-006", "nombre": "Gaseosa Naranja 2L", "emoji": "🥤", "cantidadCajas": 5, "precioCaja": 14900 },
+      { "productoId": "p-007", "nombre": "Agua Mineral sin gas 2L", "emoji": "💧", "cantidadCajas": 4, "precioCaja": 8400 },
+      { "productoId": "p-013", "nombre": "Jugo Naranja 1L", "emoji": "🧃", "cantidadCajas": 3, "precioCaja": 11600 }
+    ],
+    "total": 142900,
+    "estado": "pendiente",
+    "metodoPago": "efectivo",
+    "origen": "telefono",
+    "repartidorId": null
+  },
+  {
+    "id": "o-013",
+    "clienteId": "c-014",
+    "clienteNombre": "Supermercado Vecinal",
+    "zona": "Oeste",
+    "fecha": "2026-07-22T10:50:00",
+    "fechaEntrega": "2026-07-23",
+    "items": [
+      { "productoId": "p-004", "nombre": "Gaseosa Cola 2.25L", "emoji": "🥤", "cantidadCajas": 12, "precioCaja": 16800 },
+      { "productoId": "p-005", "nombre": "Gaseosa Lima Limón 2.25L", "emoji": "🥤", "cantidadCajas": 8, "precioCaja": 15600 },
+      { "productoId": "p-007", "nombre": "Agua Mineral sin gas 2L", "emoji": "💧", "cantidadCajas": 8, "precioCaja": 8400 },
+      { "productoId": "p-013", "nombre": "Jugo Naranja 1L", "emoji": "🧃", "cantidadCajas": 6, "precioCaja": 11600 }
+    ],
+    "total": 463200,
+    "estado": "confirmado",
+    "metodoPago": "cuenta_corriente",
+    "origen": "web",
+    "repartidorId": null
+  },
+  {
+    "id": "o-014",
+    "clienteId": "c-001",
+    "clienteNombre": "Kiosco La Esquina",
+    "zona": "Centro",
+    "fecha": "2026-07-20T08:30:00",
+    "fechaEntrega": "2026-07-20",
+    "items": [
+      { "productoId": "p-001", "nombre": "Cerveza Rubia Lager 473ml", "emoji": "🍺", "cantidadCajas": 4, "precioCaja": 18600 },
+      { "productoId": "p-007", "nombre": "Agua Mineral sin gas 2L", "emoji": "💧", "cantidadCajas": 2, "precioCaja": 8400 }
+    ],
+    "total": 91200,
+    "estado": "entregado",
+    "metodoPago": "cuenta_corriente",
+    "origen": "whatsapp",
+    "repartidorId": "u-rep-1"
+  },
+  {
+    "id": "o-015",
+    "clienteId": "c-003",
+    "clienteNombre": "Bar El Tercer Tiempo",
+    "zona": "Centro",
+    "fecha": "2026-07-20T10:10:00",
+    "fechaEntrega": "2026-07-20",
+    "items": [
+      { "productoId": "p-002", "nombre": "Cerveza Rubia 1L retornable", "emoji": "🍺", "cantidadCajas": 5, "precioCaja": 14200 },
+      { "productoId": "p-015", "nombre": "Fernet 750ml", "emoji": "🥃", "cantidadCajas": 1, "precioCaja": 68400 }
+    ],
+    "total": 139400,
+    "estado": "cancelado",
+    "metodoPago": "efectivo",
+    "origen": "telefono",
+    "repartidorId": null,
+    "notas": "Cliente canceló, ya se había abastecido con otro proveedor."
+  },
+  {
+    "id": "o-016",
+    "clienteId": "c-004",
+    "clienteNombre": "Restaurante La Parrilla",
+    "zona": "Norte",
+    "fecha": "2026-07-21T09:00:00",
+    "fechaEntrega": "2026-07-21",
+    "items": [
+      { "productoId": "p-009", "nombre": "Vino Malbec 750ml", "emoji": "🍷", "cantidadCajas": 2, "precioCaja": 42600 },
+      { "productoId": "p-010b", "nombre": "Vino Tinto Cabernet 1L Tetra", "emoji": "🍷", "cantidadCajas": 4, "precioCaja": 19800 },
+      { "productoId": "p-008", "nombre": "Agua con gas 1.5L", "emoji": "💧", "cantidadCajas": 2, "precioCaja": 9200 }
+    ],
+    "total": 182800,
+    "estado": "entregado",
+    "metodoPago": "transferencia",
+    "origen": "vendedor",
+    "repartidorId": "u-rep-2"
+  },
+  {
+    "id": "o-017",
+    "clienteId": "c-007",
+    "clienteNombre": "Bar Malvina",
+    "zona": "Centro",
+    "fecha": "2026-07-22T08:40:00",
+    "fechaEntrega": "2026-07-22",
+    "items": [
+      { "productoId": "p-001", "nombre": "Cerveza Rubia Lager 473ml", "emoji": "🍺", "cantidadCajas": 6, "precioCaja": 18600 },
+      { "productoId": "p-002", "nombre": "Cerveza Rubia 1L retornable", "emoji": "🍺", "cantidadCajas": 4, "precioCaja": 14200 }
+    ],
+    "total": 168400,
+    "estado": "en_camino",
+    "metodoPago": "efectivo",
+    "origen": "whatsapp",
+    "repartidorId": "u-rep-1"
+  },
+  {
+    "id": "o-018",
+    "clienteId": "c-001",
+    "clienteNombre": "Kiosco La Esquina",
+    "zona": "Centro",
+    "fecha": "2026-07-22T07:30:00",
+    "fechaEntrega": "2026-07-22",
+    "items": [
+      { "productoId": "p-004", "nombre": "Gaseosa Cola 2.25L", "emoji": "🥤", "cantidadCajas": 3, "precioCaja": 16800 },
+      { "productoId": "p-007", "nombre": "Agua Mineral sin gas 2L", "emoji": "💧", "cantidadCajas": 2, "precioCaja": 8400 }
+    ],
+    "total": 67200,
+    "estado": "entregado",
+    "metodoPago": "efectivo",
+    "origen": "telefono",
+    "repartidorId": "u-rep-1"
+  }
+]

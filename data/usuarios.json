@@ -1,0 +1,45 @@
+[
+  {
+    "id": "u-admin",
+    "nombre": "Valentín Rossi",
+    "email": "admin@bebimax.com",
+    "role": "admin",
+    "avatar": "VR",
+    "telefono": "+54 9 342 500-1001"
+  },
+  {
+    "id": "u-encargado",
+    "nombre": "Marina Duarte",
+    "email": "encargado@bebimax.com",
+    "role": "encargado",
+    "avatar": "MD",
+    "telefono": "+54 9 342 500-1002"
+  },
+  {
+    "id": "u-rep-1",
+    "nombre": "Diego Ferrari",
+    "email": "repartidor@bebimax.com",
+    "role": "repartidor",
+    "avatar": "DF",
+    "telefono": "+54 9 342 500-2001",
+    "zona": "Centro"
+  },
+  {
+    "id": "u-rep-2",
+    "nombre": "Luciana Gómez",
+    "email": "luciana@bebimax.com",
+    "role": "repartidor",
+    "avatar": "LG",
+    "telefono": "+54 9 342 500-2002",
+    "zona": "Norte"
+  },
+  {
+    "id": "u-rep-3",
+    "nombre": "Pablo Medina",
+    "email": "pablo@bebimax.com",
+    "role": "repartidor",
+    "avatar": "PM",
+    "telefono": "+54 9 342 500-2003",
+    "zona": "Sur"
+  }
+]

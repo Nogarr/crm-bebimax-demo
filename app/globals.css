@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+/* ============================================================
+   BebiMax CRM — Design System (vibrante marca de bebidas)
+   ============================================================ */
+@theme {
+  /* Brand — naranja energético */
+  --color-brand-50: #fff7ed;
+  --color-brand-100: #ffedd5;
+  --color-brand-200: #fed7aa;
+  --color-brand-300: #fdba74;
+  --color-brand-400: #fb923c;
+  --color-brand-500: #f97316;
+  --color-brand-600: #ea580c;
+  --color-brand-700: #c2410c;
+  --color-brand-800: #9a3412;
+  --color-brand-900: #7c2d12;
+
+  /* Superficies oscuras (sidebar / topbar repartidor) */
+  --color-ink: #0e1116;
+  --color-ink-soft: #171b22;
+  --color-ink-line: #262c37;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #f6f7fb;
+  color: #1e2530;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar sutil */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #cbd2dc transparent;
+}
+*::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+*::-webkit-scrollbar-thumb {
+  background: #cbd2dc;
+  border-radius: 9999px;
+}
+
+/* Utilidades reutilizables */
+@utility card {
+  background: #ffffff;
+  border: 1px solid #eceef3;
+  border-radius: 1rem;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04), 0 1px 3px rgba(16, 24, 40, 0.03);
+}
+
+.brand-gradient {
+  background-image: linear-gradient(135deg, #f97316 0%, #ef4444 45%, #db2777 100%);
+}
+
+.animate-in {
+  animation: fadeIn 0.35s ease both;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulseDot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.35; }
+}
+.pulse-dot {
+  animation: pulseDot 1.6s ease-in-out infinite;
+}
